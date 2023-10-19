@@ -41,9 +41,20 @@
         </li>
     </ul>
 
-    <footer>
-        Built with 💜 by Salendra.
-    </footer>
+    <footer>NOTICE : <span id="element"></span></footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Built with ❤️ by Pawan."],
+            typeSpeed: 150,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
